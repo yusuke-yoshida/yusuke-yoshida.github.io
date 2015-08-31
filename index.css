@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next", Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 14px;
+    color: #245259;
+    background-color: #E1F1EC;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.boxbar {
+    background-color: #E1F1EC;
+    height: 20px;
+}
+
+.page-header {
+    color: #EB4549;
+    text-align: center;
+}
+
+.portfolio {
+    margin: 15px;
+}
+
+.portfolio-item {
+    position: relative;
+    width: 320px;
+    height: 210px;
+    margin: 2px 4px;
+}
+
+.portfolio-item img {
+    width: 320px;
+    height: 208px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-item p {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    color: #ffffff;
+    font-size: 115%;
+    text-align: left;
+    width: 320px;
+    padding-left: 2px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.list-inline a {
+    text-decoration: none;
+}
+
+.about {
+    margin: 15px;
+}
+
+#profile img {
+    margin: 15% auto;
+    max-width: 150px;
+}
+
+.about a {
+    color: #e59601;
+}
+
+.about ul li {
+    display: inline-block;
+    margin: 2px;
+}
+
+.contact {
+    margin: 15px;
+}
+
+.contact form {
+    padding: 30px;
+}
+
+.btn-default {
+    color: #e59601;
+}
+
+footer {
+    color: #777;
+    background-color: #F8F8F8;
+    text-align: center;
+    margin: 0;
+}
+
+.copyright{
+    padding: 11px;
+}

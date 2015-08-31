@@ -4,19 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta keywords="portfolio">
     <title>Yusuke Yoshida | Portfolio</title>
-        <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
+    <link rel="stylesheet" href="index.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Styleの設定　※一旦後回し（20150824） -->
-    <style></style>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
@@ -38,79 +35,124 @@
       </nav>
     </header>
     <div class="container">
-      <div class="page-header">
-        <h1><a name="a01">Portfolio</a></h1>
+      <div class="boxbar">
       </div>
-      <div class="portfolio-container" align="center">
-        <a href="#" target="_blank">
-          <img src="photo_deer.jpeg" alt="Message Board" style="width: 1000px;" />
-          <p>Message Board</p>
-        </a>
-        <a href="#" target="_blank">
-          <img src="photo_building.jpeg" alt="Twitter Clone" style="width: 1000px;" />
-          <p>Twitter Clone</p>
-        </a>
-        <a href="#" target="_blank">
-          <img src="photo_woman.jpeg" alt="Mono List" style="width: 1000px;" />
-          <p>Mono List</p>
-        </a>
-        <a href="#" target="_blank">
-          <img src="photo_street.jpeg" alt="Original Service" style="width: 1000px;" />
-          <p>Original Service</p>
-        </a>
+      
+      <!-- Portfolio -->
+      
+      <div class="portfolio">
+        <div class="page-header">
+          <h1 id="a01">Portfolio</h1>
+        </div>
+        <ul class="list-inline" align="center">
+          <li class="portfolio-item">
+            <a href="#" target="_blank">
+              <img src="photo_deer.jpeg" class="img-responsive" alt="Message Board" />
+              <p>Message Board</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a href="#" target="_blank">
+              <img src="photo_building.jpeg" class="img-responsive" alt="Twitter Clone" />
+              <p>Twitter Clone</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a href="#" target="_blank">
+              <img src="photo_woman.jpeg" class="img-responsive" alt="Mono List" />
+              <p>Mono List</p>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a href="#" target="_blank">
+              <img src="photo_street.jpeg" class="img-responsive" alt="Original Service" />
+              <p>Original Service</p>
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="page-header">
-        <h1><a name="a02">About</a></h1>
+      
+      <!-- //Portfolio -->
+      
+      <div class="boxbar">
       </div>
-      <div class="about-container">
-        <img src="Profile_2014-05-10.jpg" alt="" style="width: 300px; float:left" />
-        <h2>Yusuke Yoshida</h2>
-        <a href="https://www.facebook.com/yoshida.yusuke.7" target="_blank">
-          <img src="facebook.png">
-        </a>
-        <a href="https://instagram.com/uskysd/" target="_blank">
-          <img src="instagram.png">
-        </a>
-        <a href="https://github.com/yusuke-yoshida" target="_blank">
-          <img src="github.png">
-        </a>
-        <p><strong>株式会社trippiece コーポレート部長</strong></p>
-        <p>旅好きな二児の父。証券会社、PR会社を経て、<a href="https://trippiece.com">trippiece</a>の一員に。高校・大学とアメフトに打ち込み、現在は週末のフラッグフットが趣味。インドアではもっぱら映画鑑賞とNFL観戦。</p>
-        <p><a href="">Contact</a>もしくは<a href="https://www.facebook.com/yoshida.yusuke.7" target="_blank">Facebook</a>から遠慮なくご連絡ください！</p>
+      
+      <!-- About -->
+      
+      <div class="about">
+        <div class="page-header">
+          <h1 id="a02">About</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-4" id="profile">  
+            <img src="profile_20140510_trimmed.jpg" class="img-circle img-responsive" alt="" />
+          </div>  
+          <div class="col-sm-8">
+            <h2>Yusuke Yoshida</h2>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/yoshida.yusuke.7" target="_blank">
+                  <img src="facebook.png">
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/uskysd/" target="_blank">
+                  <img src="instagram.png">
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/yusuke-yoshida" target="_blank">
+                  <img src="github.png">
+                </a>
+              </li>
+            </ul>  
+            <p><strong>株式会社trippiece コーポレート部長</strong></p>
+            <p>旅好きな二児の父。証券会社、PR会社を経て、<a href="https://trippiece.com">trippiece</a>の一員に。高校・大学とアメフトに打ち込み、現在は週末のフラッグフットが趣味。インドアではもっぱら映画鑑賞とNFL観戦。</p>
+            <p><a href="">Contact</a>もしくは<a href="https://www.facebook.com/yoshida.yusuke.7" target="_blank">Facebook</a>から遠慮なくご連絡ください！</p>
+          </div>
+        </div>
       </div>
-      <div style="clear: both;"></div>
-      <div class="page-header">
-        <h1><a name="a03">Contact</a></h1>
+      
+      <!-- //About -->
+
+      <div class="boxbar">
       </div>
-      <form class="form-horizontal">
-        <div class="form-group">
-          <label for="inputName" class="col-md-2 control-label">お名前</label>
-          <div class="col-md-10">
+      
+      <!-- Contact -->
+      
+      <div class="contact">
+        <div class="page-header">
+          <h1 id="a03">Contact</h1>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="inputName">お名前</label>
             <input type="text" class="form-control" id="inputName" placeholder="例：山田 太郎">
           </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail" class="col-md-2 control-label">メールアドレス</label>
-          <div class="col-md-10">
+          <div class="form-group">
+            <label for="inputEmail">メールアドレス</label>
             <input type="email" class="form-control" id="inputEmail" placeholder="例：xxxxx@example.com">
           </div>
-        </div>
-        <div class="form-group">
-          <label for="inputContent" class="col-md-2 control-label">お問合わせ内容</label>
-          <div class="col-md-10">
-            <textarea class="form-control" id="inputContent" rows="4" placeholder="お問合わせ内容をお書き下さい。"></textarea>
-          </div>
-          <br><br />
           <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default btn-warning btn-block">お問合わせを送信</button>
+            <label for="inputContent">お問合わせ内容</label>
+            <textarea class="form-control" id="inputContent" rows="4" placeholder="お問合わせ内容をお書き下さい。"></textarea>
+          </div>  
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+                <button type="submit" class="btn btn-default btn-block"><strong>お問合わせを送信</strong></button>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
+      
+      <!-- //Contact -->
+      
+      <div class="boxbar">
+      </div>
+      
+    </div>  
     <footer>
-      <div class="copyright">YUSUKE YOSHIDA</div>
+      <div class="copyright">Copyright © YUSUKE YOSHIDA 2015 All Rights Reserved.</div>
     </footer>
   </body>
 </html>
